@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight</title>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">HOLLOW KNIGHT</h1>
+    </div>
+    <div class="carousel">
+        <button class="nav-button" id="prev-button">&lt;</button>
+        <div class="image-container" id="image-container">
+            <img id="carousel-image" src="img/image1.gif" alt="Slide Image">
+        </div>
+        <button class="nav-button" id="next-button">&gt;</button>
+    </div>
+    <div class="details-container" id="details-container">
+        <p id="description" class="gradient-blue-black">Um cavaleiro sem nome explora um reino em ruínas...</p>
+        <div class="audio-buttons">
+            <button id="play-button">Play</button>
+            <button id="pause-button">Pause</button>
+        </div>
+    </div>
+    <audio id="audio" controls style="display: none;"></audio>
+    <iframe id="youtube-player" width="0" height="0" style="border:none;" allow="autoplay"></iframe>
+
+    <script src="index.js"></script>
+    <p>&copy; Todos os Direitos conservados 2024</p>
+</body>
+</html>

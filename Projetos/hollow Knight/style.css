@@ -1,0 +1,121 @@
+/* Estilos CSS para o carrossel e elementos relacionados */
+body {
+    background: url('https://giffiles.alphacoders.com/215/215586.gif') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    color: aquamarine;
+}
+
+.title {
+    font-family: 'Henny Penny', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTZ2aWx4ZG1mZGFoYWUxdzMzN2FrY3Bua2tvYzBhdGFqemd5azR3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6hOYAEC9AOJb4ciy9X/giphy.webp') no-repeat center center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gradient-blue-black {
+    background: linear-gradient(to right, blue, rgb(224, 220, 220));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+}
+
+.audio-buttons {
+    margin-top: 10px;
+}
+
+.audio-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+}
+
+.audio-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.gradient-red-gray {
+    background: linear-gradient(to right, rgb(255, 51, 51), rgb(231, 103, 103));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+}
+
+.gradient-red-black {
+    background: linear-gradient(to right, red, darkred);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+}
