@@ -4,19 +4,19 @@ const slides = [
         image: 'img/image1.gif',
         description: 'Um cavaleiro sem nome explora um reino em ruínas...',
         descriptionClass: 'gradient-blue-black',
-        music: 'audio/musica2.mp3'
+        music: ''
     },
     {
         image: 'img/image2.gif',
         description: 'Hornet aparece inicialmente como um antagonista errante e recorrente do Cavaleiro',
         descriptionClass: 'gradient-red-gray',
-        music: 'audio/musica1.mp3'
+        music: ''
     },
     {
         image: 'img/image3.gif',
         description: 'Grimm o mestre da trupe que chega em Dirtmouth',
         descriptionClass: 'gradient-red-black',
-        music: 'audio/musica3.mp3'
+        music: ''
     }
 ];
 
